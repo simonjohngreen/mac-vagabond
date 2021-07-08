@@ -9,10 +9,10 @@
 * While I really like my new Mac M1 (ARM Chip) and found it very well integrated from day 1 
 * I sometime like to fire up Ubuntu VM's using Virtualbox and Vagrant, to test out code that typically ends up in public clouds
 * Frustrated I was to find that Vagrant and Virtualbox are not supported on the ARM M1 chip, with no plans..
-* 
+
 * So I've put together a non Vagrant, or Vagrant like tool that everyone can use for free if they are frustrated like me
-* Its cloudy.. I use the Ubuntu cloud images and cloud-init to send your configuration scriptsss
-* mac-vagabond has a menu
+* Its cloudy.. I use the Ubuntu cloud images and cloud-init to send your configuration scripts
+* It has a menu, so is self explanatory 
 * All files in  ubuntu-builder/[00-99]-[anything]  are passed into the VM and executed in numberical order automatically during the build, I've included an example file 10-*
 * It seems to work..
 * Good Luck

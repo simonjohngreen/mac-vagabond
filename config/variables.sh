@@ -1,0 +1,11 @@
+#vars
+export CLOUDIMAGELINK="https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-arm64.img"
+export ACVMLINK="https://github.com/KhaosT/ACVM/releases/download/v1.0-4/ACVM.zip"
+export CLOUDIMAGEFILENAME="focal-server-cloudimg-arm64.img"
+export VMIMAGEFILENAME="vm-arm64.img"
+export VMIMAGESIZE="20G"
+export VMCORES="4"
+export VMMEMORY="4096"
+#export VMMEMORY="5120"
+export ACVMFILENAME="ACVM.zip"
+export ACVMAPPNAME="ACVM.app"
