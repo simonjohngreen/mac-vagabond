@@ -1,4 +1,4 @@
-# MAC Vagabond #
+# MAC M1 (ARM) Vagabond #
 
 ### Current Status ###
 
@@ -14,7 +14,8 @@
 * Its cloudy.. I use the Ubuntu cloud images and cloud-init to send your configuration scripts
 * It has a menu, so is self explanatory 
 * All files in  ubuntu-builder/[00-99]-[anything]  are passed into the VM and executed in numberical order automatically during the build, I've included an example file 10-*
-* It seems to work..
+* It seems to work fine on my Mac M1 and the VM boots in a few seconds..
+* The first time you run it any required software will be downloaded
 * Good Luck
 
 ps: thanks to Khaos Tian for ACVM, saved me a job patching QEMU.  
