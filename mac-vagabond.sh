@@ -18,10 +18,10 @@ echo "Main Menu. Select an option:"
 echo "************************************************************"
 
 echo -ne "
-$(ColorGreen '1)') Build a VM 
-$(ColorGreen '2)') Delete all files ready to download and build again 
-$(ColorGreen '3)') Delete just the VM disk and the cloud-init data ready to build it again 
-$(ColorGreen '4)') Start up a pre-built VM
+$(ColorGreen '1)') Build an Ubuntu VM and run my cloud-init script inside it 
+$(ColorGreen '2)') Delete all local files ready to download and build the VM again 
+$(ColorGreen '3)') Delete just the VM disk and the cloud-init data ready to build the VM again 
+$(ColorGreen '4)') Start up a pre-built VM (don't rebuild it just start it) 
 $(ColorGreen '0)') Exit
 $(ColorBlue 'Choose an option:') "
         read a
